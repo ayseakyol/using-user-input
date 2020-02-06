@@ -23,11 +23,11 @@ const editorClassesTests = [
 ];
 
 function editorClasses(emphasis, size, color) {
-  let classes = 'editorClasses';
+  let classes = 'newClasses';
 
   if (emphasis === 'bold'
     || emphasis === 'italic') {
-    classes += emphasis;
+    classes += ' ' + emphasis;
   }
   if (size === 'small'
     || size === 'large') {
